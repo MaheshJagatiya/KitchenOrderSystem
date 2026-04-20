@@ -19,9 +19,9 @@ public class IngredientData
     {
         return Type switch
         {
-            IngredientType.Vege => 20,
-            IngredientType.Cheese => 10,
-            IngredientType.Meat => 30,
+            IngredientType.Vege => 40,
+            IngredientType.Cheese => 20,
+            IngredientType.Meat => 60,
             _ => 0
         };
     }
